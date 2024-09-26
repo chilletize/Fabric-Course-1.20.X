@@ -1,5 +1,8 @@
 package net.chilletize.mccourse;
 
+import net.chilletize.mccourse.block.ModBlocks;
+import net.chilletize.mccourse.item.ModItemGroup;
+import net.chilletize.mccourse.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,7 +14,9 @@ public class MCCourseMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// Very Important Comment
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroup.registerItemGroups();
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
