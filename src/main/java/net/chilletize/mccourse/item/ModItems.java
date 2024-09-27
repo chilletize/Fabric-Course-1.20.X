@@ -2,6 +2,7 @@ package net.chilletize.mccourse.item;
 
 import net.chilletize.mccourse.MCCourseMod;
 import net.chilletize.mccourse.block.ModBlocks;
+import net.chilletize.mccourse.item.custom.MetalDetectorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -14,7 +15,21 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item PINK_GARNET = registerItem("pink_garnet",
             new Item(new FabricItemSettings()));
+
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet",
+            new Item(new FabricItemSettings()));
+
+    public static final Item METAL_DETECTOR = registerItem("metal_detector",
+            new MetalDetectorItem(new FabricItemSettings().maxDamage(256)));
+
+    public static final Item CAULIFLOWER = registerItem("cauliflower",
+            new Item(new FabricItemSettings().food(ModFoodComponents.CAULIFLOWER)));
+    public static final Item BURGER = registerItem("burger",
+            new Item(new FabricItemSettings().food(ModFoodComponents.BURGER)));
+    public static final Item NUGGET = registerItem("nugget",
+            new Item(new FabricItemSettings().food(ModFoodComponents.NUGGET)));
+
+    public static final Item PEAT_BRICK = registerItem("peat_brick",
             new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
