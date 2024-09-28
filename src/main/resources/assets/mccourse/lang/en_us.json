@@ -15,8 +15,17 @@
   "block.mccourse.end_stone_pink_garnet_ore": "End Stone Pink Garnet Ore",
   "block.mccourse.nether_pink_garnet_ore": "Nether Pink Garnet Ore",
   "block.mccourse.sound_block": "Sound Block",
+  "block.mccourse.pink_garnet_slab": "Pink Garnet Slab",
+  "block.mccourse.pink_garnet_stairs": "Pink Garnet Stairs",
+  "block.mccourse.pink_garnet_button": "Pink Garnet Button",
+  "block.mccourse.pink_garnet_pressure_plate": "Pink Garnet Pressure Plate",
+  "block.mccourse.pink_garnet_fence": "Pink Garnet Fence",
+  "block.mccourse.pink_garnet_fence_gate": "Pink Garnet Fence Gate",
+  "block.mccourse.pink_garnet_wall": "Pink Garnet Wall",
+  "block.mccourse.pink_garnet_door": "Pink Garnet Door",
+  "block.mccourse.pink_garnet_trapdoor": "Pink Garnet Trapdoor",
 
-  "tooltip.mccourse.metal_detector": "Press &eSHIFT&r for more information",
+  "tooltip.mccourse.metal_detector": "Press §eSHIFT§r for more information",
   "tooltip.mccourse.metal_detector.shift": "Right Click on Blocks to find Valuables!",
   "tooltip.mccourse.sound_block": "Plays a sound when walked on or Right Clicked",
 
